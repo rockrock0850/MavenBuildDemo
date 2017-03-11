@@ -2,8 +2,8 @@
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <!-- Generated 2016/7/7 ?U?? 12:08:42 by Hibernate Tools 5.1.0.Alpha1 -->
-<hibernate-mapping package="com.promeritage.maven.entity">
-    <class name="Employee" table="employee" catalog="DEV_TEST" optimistic-lock="version">
+<hibernate-mapping>
+    <class name="com.promeritage.maven.entity.Employee" table="employee" catalog="dev_test" optimistic-lock="version">
         <id name="id" type="java.lang.Long">
             <column name="id" />
             <generator class="identity" />
